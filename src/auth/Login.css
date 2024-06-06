@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+.login-main{
+    width: 100%;
+    height: 117vh;
+   background-image: url(../assets/photo_2024-06-05_19-03-09.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position-y: center;
+background-position-y: -58px;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+}
+.login-container{
+    width: 28rem;
+    height: auto;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    /* justify-content: center; */
+ 
+   
+
+}
+
+.first-vector{
+    width: 100%;
+    padding: 0rem 0rem 0rem 4rem;
+    margin-top: 1rem;
+}
+.first-vector img{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.logo-img{
+    width: 100%;
+  display: flex;
+ justify-content: center;
+}
+.logo-img img{
+    width: 11rem;
+    height: 2.5rem;
+}
+.second-vector{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0rem 4rem 0rem 0rem;
+
+}
+.second-vector img{
+    height: 2rem;
+    width: 2rem;
+}
+.login-para{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-para p{
+    color: #1F6CAB;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 600;
+}
+.login-input{
+    width: 79%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgba(0, 211, 235, 255);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 4px 2px -2px #9bb7b4; 
+
+}
+.login-input p{
+    margin-top: 1rem;
+    color: #1F6CAB;
+    font-family: Outfit;
+    font-size: 25px;
+}
+.login-input form{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 1rem; */
+    width: 80%;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    
+}
+.login-input form input{
+    height: 1.9rem;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+.form-btn{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+    margin-top: 1rem;
+}
+.login-input form button {
+ 
+    width: 5rem;
+    background: #1F6CAB;
+    width: 8rem;
+    color: white;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    font-family: Outfit;
+    font-size: 16px;
+}
+.login-contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+}
+.third-vector img{
+width: 3rem;
+height: 3rem;
+}
+.login-contact p{
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 5rem;
+    color: #1F6CAB;
+
+}
+.login-container-footer{
+   width: 100%;
+   display: flex;
+  justify-content: center; 
+   font-size: 12px;
+   margin-top: 1.5rem;
+   font-family: Outfit;
+}
+.login-container-footer span{
+    color: #1F6CAB;
+}
+.login-footer-main{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  /* margin: 1rem; */
+}
+.login-footer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Outfit;
+    color: white;
+    font-size: 12px;
+}
+.login-footer span{
+  color: rgba(0, 211, 235, 255);  
+}
+.err-mesg{
+    width: 79%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: .5rem;
+    color: red;
+    font-family: Outfit;
+
+
+}

@@ -1,0 +1,203 @@
+.dash-main{
+   width: 100%; 
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:#e4fbfb;
+   ;
+}
+
+
+.dash-header{
+    width: 100%;
+    height: auto;
+    padding-bottom: .5rem;
+}
+.nav-main{
+    width: 100%;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    width:85% ;
+    height: inherit;
+    display: flex;
+ 
+}
+.nav-firstpart{
+
+    width: 50%;
+ height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: #1F6CAB;
+    font-family: outfit;
+}
+.nav-secondpart{
+  width: 50%;
+  height: 100%;
+  display: flex;
+    align-items: center;
+}
+.nav-secondpart button{
+    width: 9rem;
+    height: 1.8rem;
+    background-color: #1F6CAB;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    outline: none;
+}
+
+.nav-secondpart input{
+    margin-left: 27px;
+    height: 2rem;
+    width: 25rem;
+    border-radius: 7px;
+    border: 1px solid #1F6CAB;
+    outline: none;
+    padding-left: 4px;
+    font-size: 14px;
+    position: relative;
+}
+nav-secondpart input::placeholder{
+    font-family: outfit;
+}
+#search-iocn{
+    position: absolute;
+    right: 129px;
+    color: #1F6CAB;
+    font-size: 17px;
+}
+
+.dash-filter-main{
+    width: 90%;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    background-color: white;
+    padding-right: 3rem;
+}
+.dash-filter-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    border: black 1px solid;
+    padding-bottom: 10px;
+}
+.form-raw{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-referby{
+    display: flex;
+    align-items: center;
+}
+
+.dash-filter-container input{
+    padding: 2px;
+    margin-left: 5rem;
+    width: 13rem;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid;
+}
+.dash-filter-container input::placeholder{
+    font-family: outfit;
+    font-size: 18px;
+}
+.form-referby select{
+    padding: 3px;
+    margin-left: 2.5rem;
+    width: 13rem;
+    outline: none;
+    font-family: outfit;
+    border-radius: 3px;
+    border: 1px solid;
+}
+#PatientName{
+margin-left: 49px;
+}
+#PatientName::placeholder{
+font-size: 18px;
+}
+
+#HospitalID{
+    margin-left: 52px;
+}
+#HospitalID::placeholder{
+    font-size: 18px;
+}
+#BillNo{
+    margin-left: 98px;
+}
+#BillNo::placeholder{
+    font-size: 18px;
+}
+.filter-footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#e4fbfb ;
+    border: black 1px solid;
+border-top: 0;
+padding-right: 2rem;}
+.filter-footer-container{
+    width: 88%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  
+}
+.filter-footer-firstpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 12px;
+    font-family: outfit;
+}
+
+.filter-search{
+    width: 6rem;
+    border: none;
+    background-color: #1F6CAB;
+    color: white;
+    height: 2rem;
+    border-radius: 7px;
+    font-family: outfit;
+}
+.filter-cancel{
+    width: 6rem;
+    border: none;
+    background-color: #f46c0a;
+    color: white;
+    height: 2rem;
+    border-radius: 7px;
+    font-family: outfit;
+    margin-left: 20px;
+}
+.filter-footer-secondpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 12px;
+    font-family: outfit;
+
+}

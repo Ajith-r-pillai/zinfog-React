@@ -82,7 +82,7 @@ nav-secondpart input::placeholder{
     flex-direction: column;
     padding-left: 1rem;
     background-color: white;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 .dash-filter-container{
     width: 100%;
@@ -132,20 +132,20 @@ nav-secondpart input::placeholder{
 margin-left: 49px;
 }
 #PatientName::placeholder{
-font-size: 18px;
+    font-size: 15px !important;
 }
 
 #HospitalID{
     margin-left: 52px;
 }
 #HospitalID::placeholder{
-    font-size: 18px;
+    font-size: 15px !important;
 }
 #BillNo{
     margin-left: 98px;
 }
 #BillNo::placeholder{
-    font-size: 18px;
+    font-size: 15px !important;
 }
 .filter-footer{
     width: 100%;
@@ -201,3 +201,38 @@ padding-right: 2rem;}
     font-family: outfit;
 
 }
+.dash-table-main{
+    width: 90%;
+    background-color: white;
+}
+.dash-table-main thead{
+    box-shadow: 0 4px 2px -2px #9bb7b4; 
+}
+.dash-table-main i{
+   
+    color: #1F6CAB;
+}
+.status-ready {
+    padding-left: 17px;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: #89ffaa! important;
+  }
+  
+  .status-partial {
+    padding-left: 17px;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: #e7f880! important;
+  }
+  
+  .status-lab-dropped {
+    padding-left: 17px;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: #f2a38a! important;
+  }
+ 

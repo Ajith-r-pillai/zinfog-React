@@ -8,6 +8,15 @@
     justify-content: center;
     background-color: white;
     box-shadow: 0 4px 2px -2px #9bb7b4; 
+    /* position:fixed;
+    margin: 0!important;
+    top: 0;
+    z-index: 2; */
+    position: fixed;
+top: 0;
+/* bottom: 0; */
+z-index: 21;
+      
 }
 .Header-container{
     width: 85%;

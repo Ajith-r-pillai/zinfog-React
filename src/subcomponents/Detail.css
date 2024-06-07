@@ -1,0 +1,13 @@
+.pagination-list-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pagination-list-main nav{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.pagination-list-main nav li{
+    width: 5rem;
+}
